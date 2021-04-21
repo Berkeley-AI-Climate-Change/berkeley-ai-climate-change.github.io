@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">    
     <style>
-      body {
-        background: white;
-      }
       .subtitle {
         margin-top: -1rem;
         font-style: italic;
@@ -26,6 +23,12 @@
         font-weight: normal;
         color: #003262;
       }
+      @media (prefers-color-scheme: dark) {
+        h1, h2, h3 {
+          color: white;
+        }
+      }
+
       h2{
         margin-top: 2rem;
       }
