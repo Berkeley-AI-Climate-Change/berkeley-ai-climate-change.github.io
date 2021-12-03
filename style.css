@@ -68,8 +68,6 @@ body {
 	padding: 1rem;
 	border-radius: 6px;
 	overflow-x: hidden;
-	word-break: break-word;
-	overflow-wrap: break-word;
 	background: var(--nc-bg-1);
 
 	/* Main body text */
